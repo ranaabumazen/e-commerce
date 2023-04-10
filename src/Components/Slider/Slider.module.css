@@ -1,0 +1,81 @@
+.root {
+    position: relative;
+    height: 344px;
+    width: 892px;
+    left: 378px;
+    top: 187px;
+    border-radius: 0px;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+.carousel {
+    height: 100%;
+    width: 100%;
+}
+  
+.slideTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  width: 190px;
+  height: 49px;
+  left: 64px;
+  top: 58px;
+}
+.buyButton {
+  /* background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;   */
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+color: white;
+position: absolute;
+width: 113px;
+height: 28px;
+left: 67px;
+top: 269px;
+}
+
+.arrowIcon{
+  width: 24px;
+height: 24px;
+color: white;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+  
+.slideImage {
+    height: 344px;
+    width: 496px;
+    float: right;
+    top: 0px;
+    border-radius: 0px;
+    object-fit: cover;
+  }
+
+.slideDescription{
+  position: absolute;
+  width: 294px;
+  height: 120px;
+  left: 64px;
+  top: 127px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  color: white;
+  letter-spacing: 0.04em;
+}
