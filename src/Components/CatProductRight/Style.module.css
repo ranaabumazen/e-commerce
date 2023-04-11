@@ -21,3 +21,10 @@
     opacity: 0.3;
     filter: blur(100px);
 }
+
+@media only screen and (max-width: 800px) {
+    .imgContainer{
+        order: 1;
+        margin-top: 30px;
+    }
+}
