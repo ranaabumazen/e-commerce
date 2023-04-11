@@ -14,7 +14,7 @@ const CatProductLeft = () => {
         <DateTimeContainer number={"59"} type={"Minutes"} />
         <DateTimeContainer number={"35"} type={"Second"} />
       </div>
-      <Button variant="contained" color="success" size="large" >
+      <Button variant="contained" color="success" size="large" sx={{backgroundColor:'#00FF66'}}>
         Buy Now!
       </Button>
     </div>
