@@ -1,0 +1,55 @@
+.controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1em;
+    column-gap: 1em
+}
+.separator{
+    color: #E07575;
+    margin-top: 1.7em;
+}
+.arrowBtn {
+    background: #F5F5F5;
+    border: none;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+.dateTimeBlock{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: -20em;
+    margin-top: -.3em;
+}
+
+.products_title {
+    font-size: 36px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+}
+
+.today {
+    color: #DB4444;
+}
+
+.today_div {
+    background: #DB4444;
+    width: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+}
+
+.flex_container {
+    display: flex;
+    margin-left: 1em;
+    column-gap: 1em;
+}
+
+.content {
+    margin-top: 15em;
+}

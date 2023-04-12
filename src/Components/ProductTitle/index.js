@@ -1,6 +1,10 @@
-const ProductTitle = (props)=>{
-    return(
-        <h5 {...props}>{props.title}</h5>
-    )
-}
+import { Typography } from "@mui/material";
+
+const ProductTitle = (props) => {
+  return (
+    <Typography mt={2} {...props}>
+      {props.title}
+    </Typography>
+  );
+};
 export default ProductTitle;
