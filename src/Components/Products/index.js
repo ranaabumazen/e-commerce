@@ -23,7 +23,6 @@ const Products = () => {
     <div className={styles.content}>
       <div className={styles.flex_container}>
         <div className={styles.today_div} />
-
         <ProductTitle title={"Today's"} className={styles.today} />
       </div>
       <div className={styles.container}>
